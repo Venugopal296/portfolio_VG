@@ -29,7 +29,7 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Fade duration={1000}>
                 <About />
               </Fade>
             </Container>
