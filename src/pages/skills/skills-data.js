@@ -18,9 +18,34 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_ES6 from "../../assets/img/skills/es6.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 
 export const skills = {
   frontend: [
+    {
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
+    },
+    {
+      link: "https://reactnative.dev/",
+      imgAltText: "React Native",
+      imgSrc: L_REACT,
+      skillName: "React Native",
+    },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
+    {
+      link: "https://reacttraining.com/react-router/",
+      imgAltText: "React Router",
+      imgSrc: L_REACT_ROUTER,
+      skillName: "React Router",
+    },
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
       imgAltText: "HTML 5",
@@ -50,24 +75,6 @@ export const skills = {
       imgAltText: "Bootstrap",
       imgSrc: L_BOOTSTRAP,
       skillName: "Bootstrap",
-    },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
     },
     {
       link: "https://material-ui.com/",
@@ -150,6 +157,12 @@ export const skills = {
       imgAltText: "GraphQL",
       imgSrc: L_GRAPHQL,
       skillName: "GraphQL",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     }
   ],
   versionControl: [
