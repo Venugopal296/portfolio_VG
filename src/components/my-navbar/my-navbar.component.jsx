@@ -1,28 +1,38 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import "./my-navbar.styles.css";
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Logo from '../../assets/icons/letterVG.png';
+import './my-navbar.styles.css';
 
 const MyNavbar = () => {
   return (
-    <div>
-      <Navbar
-        fixed="top"
-        variant="dark"
-        expand="md"
-        className="animate-navbar nav-theme"
-      >
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-      </Navbar>
-    </div>
+    <Navbar
+      fixed="top"
+      variant="dark"
+      expand="md"
+      className="animate-navbar nav-theme"
+    >
+      <Navbar.Brand href="#home">
+        <img
+          width="40"
+          height="40"
+          className="d-inline-block align-top logo"
+          src={Logo}
+          alt=""
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link href="#experience">Experience</Nav.Link>
+          <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link href="#contact">Contact</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 

@@ -1,11 +1,19 @@
 .nav-theme {
-  background-color: #101018f8;
+  background-color: #0a0a0ab2;
   font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(241, 239, 239);
 }
 
 .animate-navbar {
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
+}
+
+.navbar-brand img{
+  border-radius: 50%;
 }
 
 @keyframes moveDown {

@@ -12,6 +12,8 @@ import { Parallax } from "react-parallax";
 import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
+import Experience from './pages/experience/experience.component';
+import TimeLine from './components/projects-timeline/projects-timeline.component';
 
 const App = () => {
   return (
@@ -40,6 +42,20 @@ const App = () => {
         <Slide bottom duration={500}>
           <hr />
           <Skills />
+        </Slide>
+      </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
         </Slide>
       </Container>
       <Container className="container-box rounded">

@@ -14,8 +14,9 @@
 
 .list-styles {
   list-style-type: circle;
+  margin-left: 40px;
 }
 
 .image-style1 {
-  width: 3em;
+  width: 5%;
 }
