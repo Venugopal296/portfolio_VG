@@ -140,6 +140,101 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
+          {/* Project: Portfolio using React */}
+          <ImageEvent
+            date="01/08/2020"
+            className="text-center"
+            text="Portfolio using React"
+            src={L_PORTFOLIO}
+            alt="Portfolio using React"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is my first portfolio
+                        website built using React.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Send emails</li>
+                          <li>View my projects</li>
+                          <li>Hosted using github</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap 4"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              Bootstrap 4
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              React
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-center flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/Venugopal296/portfolio_VG"
+                  target="_blank"
+                >
+                  LINK
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Tic Tac Toe Game */}
           <ImageEvent
             date="14/08/2019"
@@ -229,101 +324,6 @@ const TimeLine = () => {
                   target="_blank"
                 >
                   SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Portfolio using React */}
-          <ImageEvent
-            date="07/12/2019"
-            className="text-center"
-            text="Portfolio using React"
-            src={L_PORTFOLIO}
-            alt="Portfolio using React"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using React.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Hosted using github</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{' '}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{' '}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{' '}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{' '}
-                              React
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-center flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/Venugopal296/portfolio_VG"
-                  target="_blank"
-                >
-                  LINK
                 </UrlButton>
               </div>
             </div>
