@@ -11,12 +11,14 @@ import {
 // projects
 import L_TICTACTOE from '../../assets/projects/tictactoe.png';
 import L_PERSONALNOTES from '../../assets/projects/personalNotes.png';
+import L_GIT_INFO from '../../assets/projects/Git_info.png';
 import L_PORTFOLIO from '../../assets/projects/portfolio.png';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 
 // skills
 import L_REACT from '../../assets/img/skills/react.svg';
+import L_REDUX from '../../assets/img/skills/redux.svg';
 import Image from 'react-bootstrap/Image';
 import L_HTML5 from '../../assets/img/skills/html-5.svg';
 import L_CSS3 from '../../assets/img/skills/css3.svg';
@@ -37,6 +39,100 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline theme={theme}>
         <Events>
+          {/* Project: Get user git information */}
+          <ImageEvent
+            date="02/04/2021"
+            className="text-center"
+            text="User's git information"
+            src={L_GIT_INFO}
+            alt="User's git information"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Get User's git information and repo details
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Fetch user's git information</li>
+                          <li>Fetch user's git repo information</li>
+                          <li>
+                            Store the visited search in Mobile storage using Asyncstorage
+                          </li>
+                          <li>
+                            Clear cache History
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React Native"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              React Native
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS3"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{' '}
+                              CSS3
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://expo.io/@venugopal296/projects/git-users-info"
+                  target="_blank"
+                >
+                  Expo
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/Venugopal296/GitInfo"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Personal Notes */}
           <ImageEvent
             date="29/03/2021"
@@ -129,7 +225,13 @@ const TimeLine = () => {
                   </Card>
                 </Accordion>
               </div>
-              <div className="d-flex justify-content-center flex-nowrap text-center">
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://expo.io/@venugopal296/projects/PersonalNotes"
+                  target="_blank"
+                >
+                  Expo
+                </UrlButton>
                 <UrlButton
                   href="https://github.com/Venugopal296/Personal-Notes"
                   target="_blank"
