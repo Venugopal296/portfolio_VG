@@ -1,31 +1,32 @@
-import React from 'react';
 import {
-  Timeline,
-  Events,
-  UrlButton,
-  ImageEvent,
-  createTheme,
-  themes,
-} from '@merc/react-timeline';
+  createTheme, Events,
 
-// projects
-import L_TICTACTOE from '../../assets/projects/tictactoe.png';
-import L_PERSONALNOTES from '../../assets/projects/personalNotes.png';
-import L_GIT_INFO from '../../assets/projects/Git_info.png';
-import L_PORTFOLIO from '../../assets/projects/portfolio.png';
+  ImageEvent,
+
+  themes, Timeline,
+
+  UrlButton
+} from '@merc/react-timeline';
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-
+import Image from 'react-bootstrap/Image';
+import L_BOOTSTRAP4 from '../../assets/img/skills/bootstrap-4.svg';
+import L_CSS3 from '../../assets/img/skills/css3.svg';
+import L_HTML5 from '../../assets/img/skills/html-5.svg';
+import L_MATERIAL_UI from '../../assets/img/skills/material-ui-1.svg';
 // skills
 import L_REACT from '../../assets/img/skills/react.svg';
 import L_REDUX from '../../assets/img/skills/redux.svg';
-import Image from 'react-bootstrap/Image';
-import L_HTML5 from '../../assets/img/skills/html-5.svg';
-import L_CSS3 from '../../assets/img/skills/css3.svg';
-import L_BOOTSTRAP4 from '../../assets/img/skills/bootstrap-4.svg';
-import L_MATERIAL_UI from '../../assets/img/skills/material-ui-1.svg';
-
+import L_GIT_INFO from '../../assets/projects/Git_info.png';
+import L_PERSONALNOTES from '../../assets/projects/personalNotes.png';
+import L_PORTFOLIO from '../../assets/projects/portfolio.png';
+// projects
+import L_TICTACTOE from '../../assets/projects/tictactoe.png';
 import './projects-timeline.styles.css';
+
+
+
 
 const TimeLine = () => {
   const theme = createTheme(themes.default, {
@@ -331,7 +332,7 @@ const TimeLine = () => {
                   href="https://github.com/Venugopal296/portfolio_VG"
                   target="_blank"
                 >
-                  LINK
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
