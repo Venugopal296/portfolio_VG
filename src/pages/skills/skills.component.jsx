@@ -1,14 +1,14 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 // skills
 import { skills } from "./skills-data";
-
 import "./skills.styles.css";
+
+
 
 const Skills = () => {
   return (
@@ -38,7 +38,7 @@ const Skills = () => {
 
           {/* Backend */}
           <Col md={4}>
-            <Card className="focus mt-2 mb-2">
+            {/* <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -52,7 +52,7 @@ const Skills = () => {
                   ))}
                 </Card.Text>
               </Card.Body>
-            </Card>
+            </Card> */}
 
             {/* Database */}
             <Card className="focus mt-2 mb-2">

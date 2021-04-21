@@ -1,6 +1,6 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import styled from "styled-components";
+import Typewriter from "typewriter-effect";
 
 const MyTitleMessage = styled.h1`
   position: absolute;
@@ -45,7 +45,7 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Learner"],
+              strings: ["Web Developer", "Mobile App Developer", "Learner"],
               autoStart: true,
               loop: true,
               delay: 50

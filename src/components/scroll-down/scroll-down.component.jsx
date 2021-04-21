@@ -12,6 +12,7 @@ const MyScroll = styled.div`
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
   color: #fff;
+  animation: 2s linear 0s infinite normal none running MoveUpDown;
 
   .turn {
     cursor: pointer;
@@ -20,10 +21,11 @@ const MyScroll = styled.div`
 `;
 
 const ScrollDown = () => {
+  const sym = '>>>';
   return (
     <MyScroll>
-      <div className="turn">
-        <span> &gt; </span>
+      <div className='turn'>
+        <a href='#about' style={{textDecoration: 'none'}}> {sym} </a>
       </div>
     </MyScroll>
   );
