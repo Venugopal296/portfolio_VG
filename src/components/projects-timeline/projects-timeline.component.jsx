@@ -1,21 +1,20 @@
 import {
-  createTheme, Events,
-
+  createTheme,
+  Events,
   ImageEvent,
-
-  themes, Timeline,
-
+  themes,
+  Timeline,
   UrlButton
 } from '@merc/react-timeline';
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
+// skills
 import L_BOOTSTRAP4 from '../../assets/img/skills/bootstrap-4.svg';
 import L_CSS3 from '../../assets/img/skills/css3.svg';
 import L_HTML5 from '../../assets/img/skills/html-5.svg';
 import L_MATERIAL_UI from '../../assets/img/skills/material-ui-1.svg';
-// skills
 import L_REACT from '../../assets/img/skills/react.svg';
 import L_REDUX from '../../assets/img/skills/redux.svg';
 // projects
@@ -23,6 +22,7 @@ import L_GIT_INFO from '../../assets/projects/Git_info.jpg';
 import L_PERSONALNOTES from '../../assets/projects/personalNotes.jpg';
 import L_PORTFOLIO from '../../assets/projects/portfolio.jpg';
 import L_TICTACTOE from '../../assets/projects/tictactoe.jpg';
+// Style
 import './projects-timeline.styles.css';
 
 
