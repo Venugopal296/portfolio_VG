@@ -1,13 +1,17 @@
+import L_APOLLO from "../../assets/img/skills/apollo-graphql.svg"
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_ES6 from "../../assets/img/skills/es6.svg";
+import L_EXPRESSJS from "../../assets/img/skills/expressjs.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_GRAPHQL from "../../assets/img/skills//graphql.svg"
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_NEXTJS from "../../assets/img/skills/nextjs.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
@@ -103,11 +107,17 @@ export const skills = {
       skillName: "Node.js",
     },
     {
-      link: "https://nextjs.org/",
-      imgAltText: "Nextjs",
-      imgSrc: L_NEXTJS,
-      skillName: "Nextjs",
+      link: "https://expressjs.com/",
+      imgAltText: "Express.js",
+      imgSrc: L_EXPRESSJS,
+      skillName: "Express.js",
     },
+    // {
+    //   link: "https://nextjs.org/",
+    //   imgAltText: "Nextjs",
+    //   imgSrc: L_NEXTJS,
+    //   skillName: "Nextjs",
+    // },
   ],
   hostingPlatforms: [
     {
@@ -144,18 +154,24 @@ export const skills = {
     },
   ],
   databases: [
-    // {
-    //   link: "https://www.apollographql.com/",
-    //   imgAltText: "Apollo-Grapgql",
-    //   imgSrc: L_APOLLO,
-    //   skillName: "Apollo-Grapgql",
-    // },
-    // {
-    //   link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-    //   imgAltText: "GraphQL",
-    //   imgSrc: L_GRAPHQL,
-    //   skillName: "GraphQL",
-    // },
+    {
+      link: "https://www.apollographql.com/",
+      imgAltText: "Apollo-Grapgql",
+      imgSrc: L_APOLLO,
+      skillName: "Apollo-Grapgql",
+    },
+    {
+      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+      imgAltText: "GraphQL",
+      imgSrc: L_GRAPHQL,
+      skillName: "GraphQL",
+    },
+    {
+      link: "https://www.mongodb.com/",
+      imgAltText: "MongoDB",
+      imgSrc: L_MONGODB,
+      skillName: "MongoDB",
+    },
     {
       link: "https://firebase.google.com/",
       imgAltText: "Firebase",
