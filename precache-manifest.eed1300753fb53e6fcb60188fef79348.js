@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af8aea6692c8351ff186057bb579a0b5",
+    "revision": "f674e6af1bdfb2248630a09bea8edd2e",
     "url": "/portfolio_VG/index.html"
   },
   {
-    "revision": "5015058d732935f6d317",
+    "revision": "63d8029a0d7c922a83c2",
     "url": "/portfolio_VG/static/css/main.28cc634c.chunk.css"
   },
   {
-    "revision": "6d114a9f96d8fff534ca",
-    "url": "/portfolio_VG/static/js/2.1d474fe2.chunk.js"
+    "revision": "19ac090bb46cf4e73556",
+    "url": "/portfolio_VG/static/js/2.04bbb48c.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/portfolio_VG/static/js/2.1d474fe2.chunk.js.LICENSE.txt"
+    "url": "/portfolio_VG/static/js/2.04bbb48c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5015058d732935f6d317",
-    "url": "/portfolio_VG/static/js/main.a4b4a285.chunk.js"
+    "revision": "63d8029a0d7c922a83c2",
+    "url": "/portfolio_VG/static/js/main.b0de6120.chunk.js"
   },
   {
     "revision": "d8f039fc58a2c4c025dc",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce465115b9abc91236e83e12a6595036",
     "url": "/portfolio_VG/static/media/IMG_4365.ce465115.JPG"
+  },
+  {
+    "revision": "9086960b926427485f6647fa421c677d",
+    "url": "/portfolio_VG/static/media/apollo-graphql.9086960b.svg"
   },
   {
     "revision": "bf989778565c49da91f9e0ef13dbdc5c",
@@ -52,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio_VG/static/media/es6.d5893fcb.svg"
   },
   {
+    "revision": "caf149605fda10991288d059f81a22b6",
+    "url": "/portfolio_VG/static/media/expressjs.caf14960.svg"
+  },
+  {
     "revision": "9e82f6f3096f3e3a39dbdad6f263ae56",
     "url": "/portfolio_VG/static/media/firebase.9e82f6f3.svg"
   },
@@ -62,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ff1a6f08182be4aa63a0b54da1b9e57",
     "url": "/portfolio_VG/static/media/github.0ff1a6f0.svg"
+  },
+  {
+    "revision": "6270a2d4757a839d4653c02f3db32e2f",
+    "url": "/portfolio_VG/static/media/graphql.6270a2d4.svg"
   },
   {
     "revision": "b38ff61aa327fbdc24f7b1dad7d04d1a",
@@ -82,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "82291019f34ab54a677c456a84127cc3",
     "url": "/portfolio_VG/static/media/material-ui-1.82291019.svg"
+  },
+  {
+    "revision": "4643494b26276d291b810d5610789aa7",
+    "url": "/portfolio_VG/static/media/mongodb.4643494b.svg"
   },
   {
     "revision": "68e8250c54ca6289bc68ef53bfcb10f0",
