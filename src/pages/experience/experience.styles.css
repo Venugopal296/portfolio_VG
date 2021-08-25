@@ -1,5 +1,5 @@
 .img-resize {
-  width: 10em;
+  width: 5em;
 }
 
 .style {
@@ -17,4 +17,14 @@
 .body-title-style {
   font-size: 25px;
   font-weight: 800;
+}
+
+.company-duration {
+  position: relative;
+}
+
+.duration {
+  position: absolute;
+  right: 0;
+  top: 0;
 }

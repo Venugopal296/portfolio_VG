@@ -21,6 +21,9 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_JEST from "../../assets/img/skills/jest.svg";
+import L_TESTING_LIBRARY from "../../assets/img/skills/octopus.png";
+import L_ENZYME from "../../assets/img/skills/enzyme.png";
 
 export const skills = {
   frontend: [
@@ -185,6 +188,26 @@ export const skills = {
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+  ],
+  testing: [
+    {
+      link: "https://jestjs.io/",
+      imgAltText: "Jest",
+      imgSrc: L_JEST,
+      skillName: "Jest",
+    },
+    {
+      link: "https://testing-library.com/docs/react-testing-library/intro/",
+      imgAltText: "React testing library",
+      imgSrc: L_TESTING_LIBRARY,
+      skillName: "React testing library",
+    },
+    {
+      link: "https://jestjs.io/",
+      imgAltText: "Enzyme",
+      imgSrc: L_ENZYME,
+      skillName: "Enzyme",
     },
   ],
 };
