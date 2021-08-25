@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio_VG/static/css/main.28cc634c.chunk.css",
-    "main.js": "/portfolio_VG/static/js/main.b0de6120.chunk.js",
-    "main.js.map": "/portfolio_VG/static/js/main.b0de6120.chunk.js.map",
+    "main.css": "/portfolio_VG/static/css/main.4544db48.chunk.css",
+    "main.js": "/portfolio_VG/static/js/main.5792712e.chunk.js",
+    "main.js.map": "/portfolio_VG/static/js/main.5792712e.chunk.js.map",
     "runtime-main.js": "/portfolio_VG/static/js/runtime-main.7711c8ec.js",
     "runtime-main.js.map": "/portfolio_VG/static/js/runtime-main.7711c8ec.js.map",
-    "static/js/2.04bbb48c.chunk.js": "/portfolio_VG/static/js/2.04bbb48c.chunk.js",
-    "static/js/2.04bbb48c.chunk.js.map": "/portfolio_VG/static/js/2.04bbb48c.chunk.js.map",
+    "static/js/2.f40f700b.chunk.js": "/portfolio_VG/static/js/2.f40f700b.chunk.js",
+    "static/js/2.f40f700b.chunk.js.map": "/portfolio_VG/static/js/2.f40f700b.chunk.js.map",
     "index.html": "/portfolio_VG/index.html",
-    "precache-manifest.eed1300753fb53e6fcb60188fef79348.js": "/portfolio_VG/precache-manifest.eed1300753fb53e6fcb60188fef79348.js",
+    "precache-manifest.34a5149aa77e91b319472e9431458f56.js": "/portfolio_VG/precache-manifest.34a5149aa77e91b319472e9431458f56.js",
     "service-worker.js": "/portfolio_VG/service-worker.js",
-    "static/css/main.28cc634c.chunk.css.map": "/portfolio_VG/static/css/main.28cc634c.chunk.css.map",
-    "static/js/2.04bbb48c.chunk.js.LICENSE.txt": "/portfolio_VG/static/js/2.04bbb48c.chunk.js.LICENSE.txt",
+    "static/css/main.4544db48.chunk.css.map": "/portfolio_VG/static/css/main.4544db48.chunk.css.map",
+    "static/js/2.f40f700b.chunk.js.LICENSE.txt": "/portfolio_VG/static/js/2.f40f700b.chunk.js.LICENSE.txt",
+    "static/media/Atos.svg": "/portfolio_VG/static/media/Atos.8da9374c.svg",
+    "static/media/Capgemini.svg": "/portfolio_VG/static/media/Capgemini.27c30596.svg",
     "static/media/Git_info.jpg": "/portfolio_VG/static/media/Git_info.2bd6665c.jpg",
+    "static/media/Honeywell_Aerospace.svg": "/portfolio_VG/static/media/Honeywell_Aerospace.6804346f.svg",
     "static/media/IMG_4365.JPG": "/portfolio_VG/static/media/IMG_4365.ce465115.JPG",
+    "static/media/Tesco.svg": "/portfolio_VG/static/media/Tesco.2a5437c2.svg",
     "static/media/apollo-graphql.svg": "/portfolio_VG/static/media/apollo-graphql.9086960b.svg",
     "static/media/background.webp": "/portfolio_VG/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/portfolio_VG/static/media/background.e95d0563.webp",
@@ -28,6 +32,7 @@
     "static/media/heroku.svg": "/portfolio_VG/static/media/heroku.b38ff61a.svg",
     "static/media/html-5.svg": "/portfolio_VG/static/media/html-5.676e8188.svg",
     "static/media/javascript.svg": "/portfolio_VG/static/media/javascript.2d2e31cc.svg",
+    "static/media/jest.svg": "/portfolio_VG/static/media/jest.dd50d18a.svg",
     "static/media/letterVG.png": "/portfolio_VG/static/media/letterVG.5546a31f.png",
     "static/media/material-ui-1.svg": "/portfolio_VG/static/media/material-ui-1.82291019.svg",
     "static/media/mongodb.svg": "/portfolio_VG/static/media/mongodb.4643494b.svg",
@@ -49,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7711c8ec.js",
-    "static/js/2.04bbb48c.chunk.js",
-    "static/css/main.28cc634c.chunk.css",
-    "static/js/main.b0de6120.chunk.js"
+    "static/js/2.f40f700b.chunk.js",
+    "static/css/main.4544db48.chunk.css",
+    "static/js/main.5792712e.chunk.js"
   ]
 }

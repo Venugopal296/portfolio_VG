@@ -1,35 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f674e6af1bdfb2248630a09bea8edd2e",
+    "revision": "4bdf120c52acd98b456b4a30c8b2435d",
     "url": "/portfolio_VG/index.html"
   },
   {
-    "revision": "63d8029a0d7c922a83c2",
-    "url": "/portfolio_VG/static/css/main.28cc634c.chunk.css"
+    "revision": "a914bf815203faca8225",
+    "url": "/portfolio_VG/static/css/main.4544db48.chunk.css"
   },
   {
-    "revision": "19ac090bb46cf4e73556",
-    "url": "/portfolio_VG/static/js/2.04bbb48c.chunk.js"
+    "revision": "d17afea1c21a33454991",
+    "url": "/portfolio_VG/static/js/2.f40f700b.chunk.js"
   },
   {
     "revision": "176c1a1a28b19c611d9701905d8d60b7",
-    "url": "/portfolio_VG/static/js/2.04bbb48c.chunk.js.LICENSE.txt"
+    "url": "/portfolio_VG/static/js/2.f40f700b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63d8029a0d7c922a83c2",
-    "url": "/portfolio_VG/static/js/main.b0de6120.chunk.js"
+    "revision": "a914bf815203faca8225",
+    "url": "/portfolio_VG/static/js/main.5792712e.chunk.js"
   },
   {
     "revision": "d8f039fc58a2c4c025dc",
     "url": "/portfolio_VG/static/js/runtime-main.7711c8ec.js"
   },
   {
+    "revision": "8da9374c5c1dafe85418fb476b06e347",
+    "url": "/portfolio_VG/static/media/Atos.8da9374c.svg"
+  },
+  {
+    "revision": "27c30596c8326ade64f1206176790df6",
+    "url": "/portfolio_VG/static/media/Capgemini.27c30596.svg"
+  },
+  {
     "revision": "2bd6665c40fcc97bd127d72787700b4d",
     "url": "/portfolio_VG/static/media/Git_info.2bd6665c.jpg"
   },
   {
+    "revision": "6804346fa3f70df290cbeecdc58143eb",
+    "url": "/portfolio_VG/static/media/Honeywell_Aerospace.6804346f.svg"
+  },
+  {
     "revision": "ce465115b9abc91236e83e12a6595036",
     "url": "/portfolio_VG/static/media/IMG_4365.ce465115.JPG"
+  },
+  {
+    "revision": "2a5437c27a3101fa6c68035ec4c0b4a2",
+    "url": "/portfolio_VG/static/media/Tesco.2a5437c2.svg"
   },
   {
     "revision": "9086960b926427485f6647fa421c677d",
@@ -86,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d2e31cc63a96c7e6044f52d30fd21b9",
     "url": "/portfolio_VG/static/media/javascript.2d2e31cc.svg"
+  },
+  {
+    "revision": "dd50d18a491693735e85b2e1a85d6b5f",
+    "url": "/portfolio_VG/static/media/jest.dd50d18a.svg"
   },
   {
     "revision": "5546a31f2561ed4b84f7841ec10ee9d8",
