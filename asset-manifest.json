@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio_VG/static/css/main.4544db48.chunk.css",
-    "main.js": "/portfolio_VG/static/js/main.5792712e.chunk.js",
-    "main.js.map": "/portfolio_VG/static/js/main.5792712e.chunk.js.map",
+    "main.js": "/portfolio_VG/static/js/main.433fea8f.chunk.js",
+    "main.js.map": "/portfolio_VG/static/js/main.433fea8f.chunk.js.map",
     "runtime-main.js": "/portfolio_VG/static/js/runtime-main.7711c8ec.js",
     "runtime-main.js.map": "/portfolio_VG/static/js/runtime-main.7711c8ec.js.map",
-    "static/js/2.f40f700b.chunk.js": "/portfolio_VG/static/js/2.f40f700b.chunk.js",
-    "static/js/2.f40f700b.chunk.js.map": "/portfolio_VG/static/js/2.f40f700b.chunk.js.map",
+    "static/js/2.d9a695bd.chunk.js": "/portfolio_VG/static/js/2.d9a695bd.chunk.js",
+    "static/js/2.d9a695bd.chunk.js.map": "/portfolio_VG/static/js/2.d9a695bd.chunk.js.map",
     "index.html": "/portfolio_VG/index.html",
-    "precache-manifest.34a5149aa77e91b319472e9431458f56.js": "/portfolio_VG/precache-manifest.34a5149aa77e91b319472e9431458f56.js",
+    "precache-manifest.0ecefffa8f1968a67b894adf137992bd.js": "/portfolio_VG/precache-manifest.0ecefffa8f1968a67b894adf137992bd.js",
     "service-worker.js": "/portfolio_VG/service-worker.js",
     "static/css/main.4544db48.chunk.css.map": "/portfolio_VG/static/css/main.4544db48.chunk.css.map",
-    "static/js/2.f40f700b.chunk.js.LICENSE.txt": "/portfolio_VG/static/js/2.f40f700b.chunk.js.LICENSE.txt",
+    "static/js/2.d9a695bd.chunk.js.LICENSE.txt": "/portfolio_VG/static/js/2.d9a695bd.chunk.js.LICENSE.txt",
     "static/media/Atos.svg": "/portfolio_VG/static/media/Atos.8da9374c.svg",
     "static/media/Capgemini.svg": "/portfolio_VG/static/media/Capgemini.27c30596.svg",
     "static/media/Git_info.jpg": "/portfolio_VG/static/media/Git_info.2bd6665c.jpg",
     "static/media/Honeywell_Aerospace.svg": "/portfolio_VG/static/media/Honeywell_Aerospace.6804346f.svg",
     "static/media/IMG_4365.JPG": "/portfolio_VG/static/media/IMG_4365.ce465115.JPG",
+    "static/media/MicroFrontends.png": "/portfolio_VG/static/media/MicroFrontends.819b01c6.png",
     "static/media/Tesco.svg": "/portfolio_VG/static/media/Tesco.2a5437c2.svg",
     "static/media/apollo-graphql.svg": "/portfolio_VG/static/media/apollo-graphql.9086960b.svg",
+    "static/media/aws.svg": "/portfolio_VG/static/media/aws.738eb456.svg",
     "static/media/background.webp": "/portfolio_VG/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/portfolio_VG/static/media/background.e95d0563.webp",
     "static/media/bootstrap-4.svg": "/portfolio_VG/static/media/bootstrap-4.ffded238.svg",
@@ -54,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7711c8ec.js",
-    "static/js/2.f40f700b.chunk.js",
+    "static/js/2.d9a695bd.chunk.js",
     "static/css/main.4544db48.chunk.css",
-    "static/js/main.5792712e.chunk.js"
+    "static/js/main.433fea8f.chunk.js"
   ]
 }
