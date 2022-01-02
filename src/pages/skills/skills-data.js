@@ -24,6 +24,8 @@ import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_JEST from "../../assets/img/skills/jest.svg";
 import L_TESTING_LIBRARY from "../../assets/img/skills/octopus.png";
 import L_ENZYME from "../../assets/img/skills/enzyme.png";
+import L_MICRO_FRONTEND from "../../assets/img/skills/MicroFrontends.png";
+import L_AWS from "../../assets/img/skills/aws.svg";
 
 export const skills = {
   frontend: [
@@ -50,6 +52,12 @@ export const skills = {
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
+    },
+    {
+      link: "",
+      imgAltText: "Micro Frontend",
+      imgSrc: L_MICRO_FRONTEND,
+      skillName: "Micro Frontend",
     },
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
@@ -134,6 +142,12 @@ export const skills = {
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
+    },
+    {
+      link: "https://aws.amazon.com/console/",
+      imgAltText: "AWS S3",
+      imgSrc: L_AWS,
+      skillName: "AWS S3",
     },
   ],
   programmingLanguages: [
